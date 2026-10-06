@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Categoria;
 use Illuminate\Database\Seeder;
 
 class CategoriaSeeder extends Seeder
@@ -31,7 +31,6 @@ class CategoriaSeeder extends Seeder
         'nombre' => 'Medio ambiente',
         'descripcion' => 'Ideas relacionadas con el cuidado
         del medio ambiente.'
-        ]);
-
+        ]);        
     }
 }

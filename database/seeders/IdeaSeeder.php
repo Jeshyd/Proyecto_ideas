@@ -2,17 +2,14 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Idea;
 use Illuminate\Database\Seeder;
 
 class IdeaSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     */
+{    
     public function run(): void
     {
-        /Idea::create([
+        Idea::create([
         'titulo' => 'Aplicación para organizar citas
         veterinarias',
         'descripcion' => 'Sistema para registrar y organizar
@@ -31,3 +28,4 @@ class IdeaSeeder extends Seeder
         ]);
     }
 }
+
